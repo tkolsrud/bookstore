@@ -25,5 +25,5 @@ mongoose.connection.on("disconnected", function () {
 });
 
 module.exports = {
-
-}
+    Book: require("./Book")
+};
